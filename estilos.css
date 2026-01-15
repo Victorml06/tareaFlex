@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -63,6 +62,13 @@ nav>ul>li:nth-child(even) {
     flex-grow: 1;
 
     background-color: #3e006b;
+}
+
+nav>ul>li:nth-child(2) {
+    box-sizing: content-box;
+    padding: 0 20px;
+    flex-basis: 160px;
+    /* 200px - 40px (padding) = 160px */
 }
 
 
